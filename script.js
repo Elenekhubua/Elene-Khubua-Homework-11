@@ -40,3 +40,23 @@ var person = {
     eyecolor: "blue"
   };
 console.log(person.eyecolor);  
+
+// 6.
+
+// a)
+let dogs=['Viki','Niki', 'Kiki', 'Miki', 'Riki']
+for(let i=0; i<dogs.length; i++){
+    console.log(dogs[i]);
+}
+// b)
+let cats=['andi','fendi', 'sendi', 'kendi']
+let i=0;
+while (i<cats.length) {
+    console.log(cats[i]);
+    i++;
+}
+// c)
+let pats=['bony', 'boby', 'roby', 'coby']
+pats.forEach(function (item) {
+    console.log(item);
+});
