@@ -27,3 +27,16 @@ for(let i=0; i<numbers.length; i++){
         console.log(numbers[i]);
     }
 }
+
+// 4.
+let number=[15,67,100,5,7,[80,500]]
+    console.log(number[5][1]);
+
+// 5.
+var person = {
+    firstname: "john",
+    lastname: "doe",
+    age: 50,
+    eyecolor: "blue"
+  };
+console.log(person.eyecolor);  
