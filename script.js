@@ -60,3 +60,19 @@ let pats=['bony', 'boby', 'roby', 'coby']
 pats.forEach(function (item) {
     console.log(item);
 });
+
+// 7.
+// a)
+
+var kids=['eva', 'lizi', 'sali', 'dima', 'nika']
+if (kids.length===5 && kids[kids.length-1]==='nika') 
+{
+    console.log('მასივის რაოდენობა: 5 და ბოლო ელემენტია ნიკა".');
+}
+
+// b)
+var baby=['sandro', 'giorgi', 'andro', 'rezo']
+if (baby.length===7 || baby[0]==='sandro')
+{
+    console.log('მასივის რაოდენობა: 7 და პირველი ელემენტია სანდრო".');
+}
